@@ -23,10 +23,18 @@
 // convertGBPtoEUR(2);
 // console.log(conversion);
 
-const number = 2;
+// const number = 2;
 
-if (number === 4) {
-  console.log("true");
-} else {
-  console.log("false");
-}
+// if (number === 4) {
+//   console.log("true");
+// } else {
+//   console.log("false");
+// }
+
+//LETS practice
+
+//to calculate euro (pound) * (euro)
+function calcEuro() {}
+//to calculate dollar (pound) * (dollar)
+function calcDollar() {}
+//to calculate dollar both
