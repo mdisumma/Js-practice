@@ -23,17 +23,10 @@
 // convertGBPtoEUR(2);
 // console.log(conversion);
 
-function add(a, b) {
-  return a + b;
-}
-function minus(a, b) {
-  return a - b;
-}
+const number = 2;
 
-// console.log(add(2, 2));
-// console.log(minus(2, 2));
-
-function doSomething(num1, num2) {
-  add(num1, num2);
+if (number === 4) {
+  console.log("true");
+} else {
+  console.log("false");
 }
-console.log(doSomething(5, 2));
