@@ -1,40 +1,14 @@
-// MARCO CODE
+const pound = document.getElementById("pound");
+const euro = document.getElementById("euro");
+const dollar = document.getElementById("dollar");
 
-// const euro = 1.18;
+const value = prompt("enter the value");
 
-// const value = prompt();
+function getEuro(gbp) {
+  return gbp * 1.18;
+}
 
-// function calculate() {
-//   return value * euro;
-// }
-
-// console.log(calculate());
-
-// LUISDE CODE
-// let conversion = 0;
-// const dolar_price = 1.28;
-// const euro_price = 1.18;
-
-// function convertGBPtoEUR(amountInPounds) {
-//   conversion = amountInPounds * euro_price;
-//   return conversion;
-// }
-
-// convertGBPtoEUR(2);
-// console.log(conversion);
-
-// const number = 2;
-
-// if (number === 4) {
-//   console.log("true");
-// } else {
-//   console.log("false");
-// }
-
-//LETS practice
-
-//to calculate euro (pound) * (euro)
-function calcEuro() {}
-//to calculate dollar (pound) * (dollar)
-function calcDollar() {}
-//to calculate dollar both
+function calc(value) {
+  return (euro.innerText = getEuro(value));
+}
+calc(value);
